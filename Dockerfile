@@ -18,7 +18,7 @@ RUN wget https://storage.googleapis.com/kubernetes-helm/helm-${HELM_VERSION}-lin
 RUN tar -zxvf helm-${HELM_VERSION}-linux-amd64.tar.gz
 RUN cp linux-amd64/helm /usr/local/bin/helm
 
-ADD /contrib/repos/pem /etc/pki/ca-trust/source/anchors/
+#ADD /contrib/repos/pem /etc/pki/ca-trust/source/anchors/
 
 RUN update-ca-trust force-enable \
   && update-ca-trust
