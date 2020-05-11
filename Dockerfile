@@ -1,4 +1,4 @@
-FROM nginxinc/nginx-ldap-auth:latest
+FROM linuxserver/ldap-auth:latest
 
 
 
