@@ -1,1 +1,3 @@
-FROM jupyter/minimal-notebook:dc9744740e12
+FROM nginx:stable-alpine 
+
+
