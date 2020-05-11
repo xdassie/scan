@@ -1,3 +1,4 @@
-FROM nginx:stable-alpine 
+FROM nginxinc/nginx-ldap-auth:latest
+
 
 
