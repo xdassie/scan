@@ -1,4 +1,4 @@
-FROM newtmitch/sonar-scanner:latest
+FROM python:3.7-alpine
 
 
 
