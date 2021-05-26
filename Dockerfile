@@ -1,4 +1,5 @@
-FROM skopeo:latest
+FROM rhscl/redis-32-rhel7:latest
+
 
 
 
